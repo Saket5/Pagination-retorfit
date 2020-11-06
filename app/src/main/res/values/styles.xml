@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BaseActivityToolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:textSize">@dimen/extraLargeText</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="autoSizeMinTextSize">@dimen/extraLargeText</item>
+    </style>
+
+
+</resources>

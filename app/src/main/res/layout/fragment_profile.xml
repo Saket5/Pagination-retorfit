@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <ProgressBar
+        android:layout_width="70dp"
+        android:id="@+id/profileProgressBar"
+        android:layout_height="70dp"
+        android:background="@drawable/progress_bar_background"
+        android:elevation="8dp"
+        android:padding="@dimen/mediumPadding"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/nameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/largeMargin"
+        android:layout_marginEnd="@dimen/largeMargin"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:layout_marginTop="75dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+         <ImageView
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:src="@drawable/username"
+             android:layout_marginStart="8dp"
+             app:tint="@color/lightColorPrimary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:id="@+id/nameTextView"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Name"
+            android:tint="@color/lightColorPrimary"
+            android:textSize="@dimen/mediumText"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/emailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/largeMargin"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/largeMargin"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toBottomOf="@id/nameLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/email_icon"
+            android:layout_marginStart="8dp"
+            app:tint="@color/lightColorPrimary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:id="@+id/emailTextView"
+            android:tint="@color/lightColorPrimary"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/mediumText"
+            android:text="Email ID"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phoneLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="@dimen/largeMargin"
+        android:layout_marginEnd="@dimen/largeMargin"
+        android:background="@drawable/border"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/emailLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/phone_icon"
+            android:layout_marginStart="8dp"
+            app:tint="@color/lightColorPrimary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:id="@+id/phoneTextView"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/mediumText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AddressLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/largeMargin"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/largeMargin"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toBottomOf="@id/phoneLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/home_icon"
+            android:layout_marginStart="8dp"
+            app:tint="@color/lightColorPrimary" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:id="@+id/addressTextView"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="@dimen/mediumText"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profileLogoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/largeMargin"
+        android:layout_marginStart="@dimen/largeMargin"
+        android:clickable="false"
+        android:layout_marginTop="@dimen/largeMargin"
+        android:background="@drawable/rounded_buttons"
+        android:text="Log Out"
+        android:textColor="@color/alternativeText"
+        android:textSize="@dimen/mediumText"
+        android:transitionName="create_account_transition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/AddressLayout" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

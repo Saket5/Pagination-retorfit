@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "259587486482",
+    "firebase_url": "https://payo-app-787b5.firebaseio.com",
+    "project_id": "payo-app-787b5",
+    "storage_bucket": "payo-app-787b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259587486482:android:ccec8d4bd46293e228f9cb",
+        "android_client_info": {
+          "package_name": "com.example.payo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259587486482-kq4rn3jc4oq2m64j00vf74tbrfsgd4dp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payo",
+            "certificate_hash": "09b8e2cea671d48a3057e1c52f0e6b45a0648f48"
+          }
+        },
+        {
+          "client_id": "259587486482-asho35lm3plslnm28u21t0sbgvds6699.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD47YujyLQvZyVE_AMQuSeu_pKRDleeKLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259587486482-asho35lm3plslnm28u21t0sbgvds6699.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

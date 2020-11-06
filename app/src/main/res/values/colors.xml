@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#34e5eb</color>
+    <color name="colorPrimary">#1867AA</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="lightColorPrimary">#41A7FE</color>
+    <color name="launcher_background_icon">#FFFFFF</color>
+
+    <color name="primaryBlack">#000000</color>
+    <color name="primaryWhite">#FFFFFF</color>
+
+    <color name="iconTint">#34e5eb</color>
+    <color name="alternativeIconTint">#FFFFFF</color>
+    <color name="darkIconTint">#000000</color>
+    <color name="errorTint">#FF153C</color>
+
+    <color name="primaryText">#2699FB</color>
+    <color name="alternativeText">#FFFFFF</color>
+    <color name="titleText">#000000</color>
+    <color name="subText">#777777</color>
+    <color name="lightGrayText">#ECE2E2</color>
+
+    <color name="progressBarBg">#FFFFFF</color>
+
+    <color name="roundedButtonsBg">#2699FB</color>
+    <color name="alternativeRoundedButtonsBg">#FFFFFF</color>
+</resources>

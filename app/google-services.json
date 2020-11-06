@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "941272277093",
+    "firebase_url": "https://payo-4808a.firebaseio.com",
+    "project_id": "payo-4808a",
+    "storage_bucket": "payo-4808a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941272277093:android:6a9c57db759153e475a68c",
+        "android_client_info": {
+          "package_name": "com.example.payo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941272277093-6508153e329dv7arjf4vse9l3lbodcib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ7irJdjEC9CNLLtJQRsZpE1Oy4DW7iXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941272277093-6508153e329dv7arjf4vse9l3lbodcib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
